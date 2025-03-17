@@ -1,0 +1,22 @@
+2025-02-22 12:05:22 | Information | Now listening on: "https://localhost:7285"
+2025-02-22 12:05:22 | Information | Now listening on: "http://localhost:5163"
+2025-02-22 12:05:22 | Information | Application started. Press Ctrl+C to shut down.
+2025-02-22 12:05:22 | Information | Hosting environment: "Development"
+2025-02-22 12:05:22 | Information | Content root path: "C:\Users\jayde\source\repos\Student_Api\Student_Api"
+2025-02-22 12:05:23 | Information | Request starting "HTTP/2" "GET" "https"://"localhost:7285""""/swagger/index.html""" - null null
+2025-02-22 12:05:23 | Information | Request finished "HTTP/2" "GET" "https"://"localhost:7285""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 182.0657ms
+2025-02-22 12:05:23 | Information | Request starting "HTTP/2" "GET" "https"://"localhost:7285""""/_vs/browserLink""" - null null
+2025-02-22 12:05:23 | Information | Request starting "HTTP/2" "GET" "https"://"localhost:7285""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-02-22 12:05:23 | Information | Request finished "HTTP/2" "GET" "https"://"localhost:7285""""/_framework/aspnetcore-browser-refresh.js""" - 200 13774 "application/javascript; charset=utf-8" 13.4462ms
+2025-02-22 12:05:23 | Information | Request finished "HTTP/2" "GET" "https"://"localhost:7285""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.5478ms
+2025-02-22 12:05:23 | Information | Request starting "HTTP/2" "GET" "https"://"localhost:7285""""/swagger/v1/swagger.json""" - null null
+2025-02-22 12:05:23 | Information | Request finished "HTTP/2" "GET" "https"://"localhost:7285""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.0842ms
+2025-02-22 12:05:31 | Information | Request starting "HTTP/2" "GET" "https"://"localhost:7285""""/api/Category/8""" - null null
+2025-02-22 12:05:31 | Information | Executing endpoint '"Student_Api.Controllers.CategoryController.GetCategoryById (Student_Api)"'
+2025-02-22 12:05:31 | Information | Route matched with "{action = \"GetCategoryById\", controller = \"Category\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCategoryById(Int32)" on controller "Student_Api.Controllers.CategoryController" ("Student_Api").
+2025-02-22 12:05:31 | Information | Fetching Catgory data for Id:8
+2025-02-22 12:05:31 | Warning | Category Id with 8 not found.
+2025-02-22 12:05:31 | Information | Executing "NotFoundObjectResult", writing value of type '"System.String"'.
+2025-02-22 12:05:31 | Information | Executed action "Student_Api.Controllers.CategoryController.GetCategoryById (Student_Api)" in 18.3292ms
+2025-02-22 12:05:31 | Information | Executed endpoint '"Student_Api.Controllers.CategoryController.GetCategoryById (Student_Api)"'
+2025-02-22 12:05:31 | Information | Request finished "HTTP/2" "GET" "https"://"localhost:7285""""/api/Category/8""" - 404 null "text/plain; charset=utf-8" 50.0277ms
